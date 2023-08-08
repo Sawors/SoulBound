@@ -1,0 +1,4 @@
+name: soulbound
+version: '${project.version}'
+main: io.github.sawors.soulbound.Soulbound
+api-version: '1.20'
