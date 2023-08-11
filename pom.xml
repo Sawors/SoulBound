@@ -26,7 +26,7 @@
 
     <properties>
         <java.version>
-            1.8
+            17
         </java.version>
         <project.build.sourceEncoding>
             UTF-8
@@ -105,12 +105,9 @@
             </url>
         </repository>
         <repository>
-            <id>
-                sonatype
-            </id>
-            <url>
-                https://oss.sonatype.org/content/groups/public/
-            </url>
+            <id>sawors-repo-releases</id>
+            <name>Sawors Repository</name>
+            <url>https://maven.sawors.net/releases</url>
         </repository>
     </repositories>
 
@@ -128,6 +125,19 @@
             <scope>
                 provided
             </scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.sawors</groupId>
+            <artifactId>slogger</artifactId>
+            <version>1.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.sawors</groupId>
+            <artifactId>simple-sit</artifactId>
+            <version>1.2</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>

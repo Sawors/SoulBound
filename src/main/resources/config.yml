@@ -1,0 +1,6 @@
+# forces the gamerule to disable natural regeneration of health on every world
+enforce-no-natural-regeneration: true
+# allows passive healing, for instance sleeping in a bed or sitting around a campfire
+allow-passive-healing: true
+# prevent instant respawns in case it conflicts with another plugin. DO NOT MODIFY IF YOU DO NOT ENCOUNTER ANY INCOMPATIBILITY !
+#prevent-instant-respawn: false
